@@ -30,9 +30,9 @@ class J2j {
 
     }
 
-    default() {
-
-        this.writeToConsole(convert())
+    default(path) {
+        const schema = require(path);
+        this.writeToConsole(convert(schema));
     }
 
     version() {
