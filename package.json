@@ -1,5 +1,5 @@
 {
-  "name": "joitojson",
+  "name": "joi2j",
   "version": "1.0.0",
   "description": "Convert Joi schema to JSON",
   "main": "index.js",
