@@ -1,0 +1,27 @@
+{
+  "name": "joi2json",
+  "version": "1.0.0",
+  "description": "Convert Joi schema to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "j2j": "./bin/index.js"
+  },
+  "author": "Boris Kotlyarov",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BorisKotlyarov/joi2json.git"
+  },
+  "keywords": [
+    "Joi",
+    "JSON",
+    "Schema"
+  ],
+  "bugs": {
+    "url": "https://github.com/BorisKotlyarov/joi2json/issues"
+  },
+  "homepage": "https://github.com/BorisKotlyarov/joi2json#readme"
+}
