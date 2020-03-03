@@ -31,8 +31,9 @@ class J2j {
     }
 
     default(path) {
+        //todo check file exist
         const schema = require(path);
-        this.writeToConsole(convert(schema));
+        console.log(convert(schema));
     }
 
     version() {
@@ -56,14 +57,6 @@ Commands:
 
         console.log(helpText);
     }
-
-
-    writeToConsole(text) {
-        process.stdout.clearLine ? process.stdout.clearLine() : '';
-        process.stdout.cursorTo ? process.stdout.cursorTo(0) : '';
-        process.stdout.write(text);
-    }
-
 }
 
 new J2j();
