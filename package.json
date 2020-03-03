@@ -1,6 +1,6 @@
 {
   "name": "joitojson",
-  "version": "1.0.0-2",
+  "version": "1.0.0-3",
   "description": "Convert Joi schema to JSON",
   "main": "index.js",
   "scripts": {
