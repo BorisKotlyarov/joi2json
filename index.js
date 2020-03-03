@@ -1,11 +1,11 @@
-function convert(schema) {
+function convert(schema, toJson = true) {
     const object = {};
 
     schema._ids._byKey.forEach((item) => {
-        object[item.id] = item.schema.type === "object" ? convert(item.schema) : item.schema.type.toUpperCase();
+        object[item.id] = item.schema.type === "object" ? convert(item.schema, false) : item.schema.type.toUpperCase();
     });
 
-    return JSON.stringify(object, null, '\t');
+    return toJson ? JSON.stringify(object, null, '\t') : object;
 }
 
 module.exports = convert;

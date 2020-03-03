@@ -1,5 +1,5 @@
 {
-  "name": "joi2json",
+  "name": "joitojson",
   "version": "1.0.0-2",
   "description": "Convert Joi schema to JSON",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BorisKotlyarov/joi2json.git"
+    "url": "git+https://github.com/BorisKotlyarov/joitojson.git"
   },
   "keywords": [
     "Joi",
@@ -21,7 +21,7 @@
     "Schema"
   ],
   "bugs": {
-    "url": "https://github.com/BorisKotlyarov/joi2json/issues"
+    "url": "https://github.com/BorisKotlyarov/joitojson/issues"
   },
-  "homepage": "https://github.com/BorisKotlyarov/joi2json#readme"
+  "homepage": "https://github.com/BorisKotlyarov/joitojson#readme"
 }
